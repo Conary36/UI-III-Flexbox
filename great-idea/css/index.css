@@ -178,6 +178,12 @@ p{
 	max-height: auto;
 	
 }
+@media screen and (max-width: 600px) {
+  .navbar p{
+    float: none;
+    width: 100%;
+  }
+}
 #services{
 	 display: flex;
 	 /* float:left;    */
@@ -286,7 +292,7 @@ div h1{
 section .facts{
 	display: flex;
 	width: 100%;
-	flex-flow: row wrap;
+	/* flex-flow: row wrap; */
 	justify-content: space-between;
 	margin: 30px;
 }

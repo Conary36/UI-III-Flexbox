@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-/********vision.html styling below************/
+/********Vision.html styling below************/
 body{
     margin: 40px;
 }
@@ -79,9 +79,43 @@ body{
 	align-items: center;
 	flex-direction: row;
 }
-div .imgWinter{
+ .imgWinter{
     display: flex;
-    justify-content:  flex-end;
+    align-content:  center;
     background-size: cover;
 	background-position: center;
+	width: 100%;
 }
+section{
+	display: flex;
+	border: 1px solid blue;
+	width: 100%;
+	justify-content: space-between;
+
+}
+div .border p{
+	display: flex;
+	border: 1px solid black;
+	flex-wrap: wrap;
+}
+.ourVision{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 48%;
+	margin: 10px 10px 10px 10px;
+
+}
+.ourMission{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 48%;
+	margin: 10px 10px 10px 10px;
+
+}
+#copyright2{
+	text-align: center;
+	margin-top: 200px;
+}
+
